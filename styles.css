@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.mission-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mission-list li {
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#progress-bar-container {
+  width: 100%;
+  background-color: #f3f3f3;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: green;
+  border-radius: 5px;
+}
